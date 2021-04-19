@@ -1,0 +1,48 @@
+spring:
+  datasource:
+    driver-class-name: "com.mysql.cj.jdbc.Driver"
+    url: ${DB_URL:jdbc:mysql://182.92.108.155:3306/csip?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8}
+    username: ${DB_USER:csip}
+    password: ${DB_PASS:csip@fsmer}
+#    url: jdbc:mysql://localhost:3306/csip?characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=GMT%2B8
+#    username: csip
+#    password: csip@fsmer
+    hikari:
+      minimum-idle: 3
+      maximum-pool-size: 10
+      max-lifetime: 30000
+      connection-test-query: SELECT 1
+  jpa:
+    show-sql: ${SHOW_SQL:true}
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: false
+        dialect: "org.hibernate.dialect.MySQL5Dialect"
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+server:
+  port: 9002
+  servlet:
+    context-path: /csipapi
+
+logging:
+  config: classpath:log4j2.yml
+  level:
+    org:
+      hibernate:
+        type:
+          descriptor:
+    sql:
+      BasicBinder: trace
+upload:
+   basePath: F:/projectCode/ideacode/csip/V1.0.1/web/csip/public/images/
+   httpPath: http://192.168.188.192:8080/csip/images/
+  #basePath: /data/java/csip/csipWeb/images/
+  #httpPath: http://10.9.1.45:9003/csip/images/
+  #dell
+  #basePath: /usr/local/java/apache-tomcat-8.5.63/webapps/csip/images/
+  #httpPath: http://221.214.210.179:8765/csip/images/
+aivideo:
+  baseUrl: http://192.168.170.109:18000/

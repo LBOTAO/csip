@@ -1,0 +1,85 @@
+2021-04-16 09:37:03.180 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CsipapiApplication using Java 1.8.0_212 on DESKTOP-35VEN8B with PID 24912 (F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi\target\classes started by yj20 in F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi)
+2021-04-16 09:37:03.199 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2021-04-16 09:37:07.465 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 09:37:07.784 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 283 ms. Found 11 JPA repository interfaces.
+2021-04-16 09:37:08.662 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 9002 (http)
+2021-04-16 09:37:08.949 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5690 ms
+2021-04-16 09:37:09.303 - INFO  [           main] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-16 09:37:09.452 - INFO  [           main] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-04-16 09:37:09.723 - INFO  [           main] .a.c.r.j.JavaReflectionManager : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-16 09:37:10.425 - INFO  [           main] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-16 09:37:12.619 - INFO  [           main] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-16 09:37:12.635 - INFO  [           main] stractEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 09:37:14.160 - WARN  [           main] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-16 09:37:14.453 - INFO  [           main] edRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-16 09:37:14.695 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-16 09:37:15.372 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 9002 (http) with context path '/csipapi'
+2021-04-16 09:37:16.227 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CsipapiApplication in 13.75 seconds (JVM running for 21.146)
+2021-04-16 09:38:03.307 - INFO  [nio-9002-exec-5] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2021-04-16 09:38:03.309 - INFO  [nio-9002-exec-5] o.s.w.s.FrameworkServlet       : Completed initialization in 1 ms
+2021-04-16 19:24:01.858 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-16 19:24:01.898 - INFO  [extShutdownHook] stractEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 23:15:33.365 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CsipapiApplication using Java 1.8.0_212 on DESKTOP-35VEN8B with PID 16548 (F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi\target\classes started by yj20 in F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi)
+2021-04-16 23:15:33.449 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2021-04-16 23:15:35.681 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 23:15:35.922 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 218 ms. Found 11 JPA repository interfaces.
+2021-04-16 23:15:36.734 - WARN  [           main] c.s.AbstractApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.context.ApplicationContextException: Unable to start ServletWebServerApplicationContext due to missing ServletWebServerFactory bean.
+2021-04-16 23:15:36.760 - INFO  [           main] valuationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-16 23:16:37.633 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CsipapiApplication using Java 1.8.0_212 on DESKTOP-35VEN8B with PID 8268 (F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi\target\classes started by yj20 in F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi)
+2021-04-16 23:16:37.649 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2021-04-16 23:16:39.137 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 23:16:39.237 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 11 JPA repository interfaces.
+2021-04-16 23:16:40.620 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 9002 (http)
+2021-04-16 23:16:40.824 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3112 ms
+2021-04-16 23:16:41.059 - INFO  [           main] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-16 23:16:41.238 - INFO  [           main] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-04-16 23:16:41.546 - INFO  [           main] .a.c.r.j.JavaReflectionManager : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-16 23:16:43.529 - INFO  [           main] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-16 23:16:46.177 - INFO  [           main] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-16 23:16:46.213 - INFO  [           main] stractEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 23:16:48.335 - WARN  [           main] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-16 23:16:48.570 - INFO  [           main] edRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-16 23:16:48.722 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-16 23:16:49.297 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 9002 (http) with context path '/csipapi'
+2021-04-16 23:16:49.877 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CsipapiApplication in 12.827 seconds (JVM running for 16.404)
+2021-04-16 23:20:14.480 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-16 23:20:14.485 - INFO  [extShutdownHook] stractEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 23:34:32.433 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CsipapiApplication using Java 1.8.0_212 on DESKTOP-35VEN8B with PID 4360 (F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi\target\classes started by yj20 in F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi)
+2021-04-16 23:34:32.453 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2021-04-16 23:34:34.887 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 23:34:35.130 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 221 ms. Found 11 JPA repository interfaces.
+2021-04-16 23:34:36.667 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 9002 (http)
+2021-04-16 23:34:36.974 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4417 ms
+2021-04-16 23:34:37.503 - INFO  [           main] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-16 23:34:37.752 - INFO  [           main] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-04-16 23:34:38.146 - INFO  [           main] .a.c.r.j.JavaReflectionManager : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-16 23:34:40.023 - INFO  [           main] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-16 23:34:42.444 - INFO  [           main] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-16 23:34:42.486 - INFO  [           main] stractEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 23:34:45.224 - WARN  [           main] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-16 23:34:45.642 - INFO  [           main] edRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-16 23:34:45.930 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-16 23:34:46.825 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 9002 (http) with context path '/csipapi'
+2021-04-16 23:34:48.032 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CsipapiApplication in 16.628 seconds (JVM running for 20.861)
+2021-04-16 23:55:12.845 - INFO  [extShutdownHook] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-16 23:55:12.863 - INFO  [extShutdownHook] stractEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 23:55:29.238 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting CsipapiApplication using Java 1.8.0_212 on DESKTOP-35VEN8B with PID 15724 (F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi\target\classes started by yj20 in F:\projectCode\ideacode\csip\V1.0.1\backend\csipapi)
+2021-04-16 23:55:29.292 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2021-04-16 23:55:30.924 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 23:55:31.219 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 275 ms. Found 11 JPA repository interfaces.
+2021-04-16 23:55:32.504 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 9002 (http)
+2021-04-16 23:55:32.794 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3452 ms
+2021-04-16 23:55:33.110 - INFO  [           main] o.h.j.i.u.LogHelper            : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-16 23:55:33.370 - INFO  [           main] o.h.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-04-16 23:55:33.545 - INFO  [           main] .a.c.r.j.JavaReflectionManager : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-16 23:55:34.973 - INFO  [           main] o.h.d.Dialect                  : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-04-16 23:55:36.717 - INFO  [           main] e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-16 23:55:36.747 - INFO  [           main] stractEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 23:55:37.928 - WARN  [           main] figuration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-16 23:55:38.069 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService
+2021-04-16 23:55:38.070 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'taskExecutor'
+2021-04-16 23:55:38.090 - INFO  [           main] edRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-16 23:55:38.422 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 9002 (http) with context path '/csipapi'
+2021-04-16 23:55:39.146 - INFO  [           main] o.s.b.StartupInfoLogger        : Started CsipapiApplication in 10.415 seconds (JVM running for 12.947)
